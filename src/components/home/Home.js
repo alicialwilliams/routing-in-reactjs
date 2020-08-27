@@ -1,9 +1,9 @@
 import React from 'react';//package we are importing is lower case
 
-function Welcome(props) {
+function Home(props) {
     return (
-      <div className="Welcome">
-        <h2> Welcome, {props.match.params.name}!</h2>
+      <div className="Home">
+        <h2> Hello!!!!</h2>
       
       </div>
       
@@ -21,4 +21,4 @@ function Welcome(props) {
     );
   }
 }*/
-export default Welcome;
+export default Home;
