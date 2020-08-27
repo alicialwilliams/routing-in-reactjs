@@ -15,8 +15,13 @@ function App() {
       <Navigation />
       <Switch>
         
-          <Route exact path='/' render={()=> <div>Home</div>} />
+          
           <Route path="/home" component={Home}/>
+          <Route exact 
+          path="/"
+          render={props=><Welcome{...props} name="Alicia"/>}
+          />
+  
           <Route exact
           path="/welcome/:name" 
           render={(props) => <Welcome {...props} name={props.match.params.name}/> }
