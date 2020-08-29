@@ -3,7 +3,7 @@ import React from 'react';//package we are importing is lower case
 function Home(props) {
     return (
       <div className="Home">
-        <h2> Hello!!!!</h2>
+        <h3> Hello / Welcome!  I know I am being redundant.  But, who cares :) </h3>
       
       </div>
       
